@@ -1,4 +1,8 @@
-
+app/node_modules
+server/node_modules	
+server/chromedriver.log
+server/coverage
+server/tests_output
 # Created by https://www.gitignore.io/api/node,macos,sublimetext,webstorm+all,phpstorm+all
 # Edit at https://www.gitignore.io/?templates=node,macos,sublimetext,webstorm+all,phpstorm+all
 

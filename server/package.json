@@ -1,0 +1,36 @@
+{
+  "name": "lab1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "mocha test/**/*.js",
+    "ui-test": "nightwatch ui-test/ui-test.js",
+    "test-code-coverage": "istanbul cover _mocha $(find ./test -name \\\"*.test.js\\\" -not -path \\\"./node_modules/*\\\")"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "casper-chai": "^0.3.0",
+    "casperjs": "^1.1.4",
+    "chai": "^4.2.0",
+    "chromedriver": "^77.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.2",
+    "mocha-casperjs": "^0.6.0",
+    "nightwatch": "^1.2.4",
+    "phantomjs": "^2.1.7",
+    "supertest": "^4.0.2"
+  }
+}
